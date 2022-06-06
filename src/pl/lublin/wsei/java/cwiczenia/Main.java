@@ -1,8 +1,12 @@
 package pl.lublin.wsei.java.cwiczenia;
 
+import pl.lublin.wsei.java.cwiczenia.mylib.Account;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello Java world\n");
+        Account acc = new Account();
+        acc.setName("Damian Krzak");
+        System.out.println(acc.getName());
     }
 }
