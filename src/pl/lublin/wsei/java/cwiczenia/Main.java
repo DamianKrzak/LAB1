@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Account acc = new Account();
-        acc.setName("Damian Krzak");
+        acc.setName("damian Krzak");
         System.out.println(acc.getName());
     }
 }
